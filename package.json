@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx hardhat test",
     "compile": "npx hardhat compile",
-    "deploy": "npx hardhat run scripts/deploy.ts --network ropsten",
+    "deploy": "npx hardhat run scripts/deploy.ts",
     "startLocalBlockchain": "npx hardhat node",
     "startFrontend" : "cd ./frontend && npm run start"
   },
