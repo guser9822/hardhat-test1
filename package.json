@@ -8,7 +8,7 @@
     "compile": "npx hardhat compile",
     "deploy": "npx hardhat run scripts/deploy.ts",
     "startLocalBlockchain": "npx hardhat node",
-    "startFrontend" : "cd ./frontend && npm run start"
+    "startFrontend": "cd ./frontend && npm run start"
   },
   "repository": {
     "type": "git",
@@ -33,5 +33,8 @@
     "hardhat": "^2.1.2",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0"
   }
 }
